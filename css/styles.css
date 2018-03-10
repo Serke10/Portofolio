@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-width: 800px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ece5e5;
+}
+
+header {
+  border-bottom: 5px solid red;
+  background-color: white;
+}
+
+main {
+  text-align: center;
+}
+
+.title-img {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  max-width: 20%;
+  max-height:  20%;
+}
+
+.title1 {
+  float: right;
+  color: #7d97ad;
+}
+
+.par {
+  font-style: oblique;
+}
+
+.heading {
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  border-bottom: 5px solid #2b00f7;
+  border-top: 5px solid #2b00f7;
+}
+
+.image2 {
+  border-left: 5px solid #2b00f7;
+  border-right: 5px solid #2b00f7;
+  max-width: 30%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 25px;
+  max-width: 100%;
+}
+
+/*
+ *
+ * Nexus 5
+ *
+ */
+
+
+@media screen and (max-width: 680px) {
+  .title1 {
+    font-size: 150%;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+
+  .image2 {
+    max-width: 100%;
+    border-bottom: 5px solid #2b00f7;
+    border-top: 5px solid #2b00f7;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+/*
+ *
+ * I pad
+ *
+ */
+
+@media screen and (max-width: 769px) and (min-width: 681px) {
+  .title1 {
+    font-size: 300%;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+
+  main {
+    font-size: 180%;
+  }
+
+  footer {
+    font-size: 120%;
+  }
+}
+
+/*
+ *
+ * Desktop
+ *
+ */
+
+@media screen and (min-width: 770px) {
+  body {
+    margin: auto;
+  }
+
+  main {
+    font-size: 170%;
+  }
+
+  footer {
+    font-size: 120%;
+  }
+
+  .title1 {
+    font-size: 300%;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+}
